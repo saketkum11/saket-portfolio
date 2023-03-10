@@ -1,20 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const Header = () => {
+const Footer = () => {
   return (
-    <>
-      <nav className="bg-zinc-800  m-auto px-2 py-3 my-5 rounded-full border border-solid border-zinc-700">
-        <div className="flex justify-between items-center">
-          <ul className="flex justify-center items-center">
-            <li className="px-4">
-              <Link
-                to="/"
-                className="text-white text-xs hover:text-pink-600 focus:text-pink-600"
-              >
-                Home
-              </Link>
-            </li>
+    <div className=" border-solid border-t-2 border-zinc-800">
+      <nav className=" m-auto px-2 py-3 my-5 ">
+        <div className="flex flex-col items-center justify-center gap-7">
+          <ul className="flex justify-center items-center max-w-sm">
             <li className="px-4">
               <Link
                 to="/about"
@@ -40,10 +32,12 @@ const Header = () => {
               </Link>
             </li>
           </ul>
+          <div className="text-zinc-600 text-xs">
+            <p>© 2023 Spencer Sharp. All rights reserved.</p>
+          </div>
         </div>
       </nav>
-    </>
+    </div>
   );
 };
-
-export { Header };
+export { Footer };
