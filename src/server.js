@@ -7,3 +7,4 @@ export { Projects } from "./pages/Projects";
 export { Article } from "./pages/Article";
 export { Footer } from "./Component/Footer";
 export { Card } from "./Component/Card";
+export { ProjectCard } from "./Component/ProjectCard";

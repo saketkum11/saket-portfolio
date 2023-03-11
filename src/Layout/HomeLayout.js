@@ -5,9 +5,9 @@ import { Footer, Header } from "../server";
 const HomeLayout = () => {
   return (
     <div className=" ">
-      <div className=" bg-zinc-900 grid grid-col-1 border border-solid border-zinc-700 mx-auto sm:max-w-6xl ">
+      <div className=" bg-zinc-900 mx-auto border border-solid border-zinc-700 sm:max-w-7xl ">
         <Header />
-        <main>
+        <main className="my-10 sm:px-20">
           <Outlet />
         </main>
         <Footer />

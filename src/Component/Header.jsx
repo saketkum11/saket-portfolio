@@ -4,8 +4,11 @@ import { Link } from "react-router-dom";
 const Header = () => {
   return (
     <>
-      <nav className="bg-zinc-800  m-auto px-2 py-3 my-5 rounded-full border border-solid border-zinc-700">
-        <div className="flex justify-between items-center">
+      <nav className="bg-zinc-800 m-auto px-2 py-3 my-5  border border-solid border-zinc-700">
+        <div className="flex justify-between items-center px-10">
+          <div className="text-white text-3xl font-bold">
+            <Link to="">Saket Kumar</Link>
+          </div>
           <ul className="flex justify-center items-center">
             <li className="px-4">
               <Link
