@@ -3,7 +3,7 @@ import { ProjectCard } from "../server";
 const Projects = () => {
   return (
     <>
-      <div className="mt-24">
+      <div className="mt-24 p-4 sm:grid sm:grid-cols-1">
         <div className="flex flex-col gap-5 max-w-2xl">
           <span className="text-white text-5xl font-bold">
             Things I’ve made trying to put my dent in the universe.
