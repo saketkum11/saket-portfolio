@@ -7,7 +7,7 @@ const HomeLayout = () => {
     <div className=" ">
       <div className=" bg-zinc-900 mx-auto border border-solid border-zinc-700 sm:max-w-7xl ">
         <Header />
-        <main className="my-10 sm:px-20">
+        <main className="my-10 md:px-20">
           <Outlet />
         </main>
         <Footer />

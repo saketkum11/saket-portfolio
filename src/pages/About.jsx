@@ -5,11 +5,15 @@ const About = () => {
     <>
       <div className="p-9 mt-32">
         <div className="grid grid-cols-1 lg:grid-rows-[auto-1fr] lg:grid-cols-2 gap-9">
-          <div className=" max-w-sm">
-            <img src="./assests/female.jpg" className="rounded-lg" alt="" />
+          <div className=" max-w-sm lg:ml-auto">
+            <img
+              src="./assests/female.jpg"
+              className="rounded-lg object-cover"
+              alt=""
+            />
           </div>
           <div className="text-zinc-500 lg:order-first flex flex-col gap-6 lg:row-span-2">
-            <span className="text-5xl font-extrabold text-white">
+            <span className="md:text-5xl font-extrabold text-white">
               I’m Spencer Sharp. I live in New York City, where I design the
               future.
             </span>
