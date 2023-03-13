@@ -48,25 +48,8 @@ const Home = () => {
           </li>
         </ul>
       </div>
-      <div className="flex relative gap-4 my-5">
-        <div>
-          <img src="./assests/female.jpg" alt="" />
-        </div>
-        <div>
-          <img src="./assests/female.jpg" alt="" />
-        </div>
-        <div>
-          <img src="./assests/female.jpg" alt="" />
-        </div>
-        <div>
-          <img src="./assests/female.jpg" alt="" />
-        </div>
-        <div>
-          <img src="./assests/female.jpg" alt="" />
-        </div>
-      </div>
 
-      <div className="grid place-content-center lg:grid-cols-2 sm:gap-4  p-6">
+      <div className="grid place-content-center lg:grid-cols-2 sm:gap-4  ">
         <Card />
         <div className=" sm:pl-10 ">
           <div className="flex flex-col gap-8 text-white border border-solid border-zinc-700 py-3 rounded-xl px-5 sm:text-sm">

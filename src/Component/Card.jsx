@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Card = () => {
   return (
     <>
-      <div className="grid grid-cols-1 gap-8   w-full  sm:px-8 sm:py-8  sm:max-w-2xl my-6">
+      <div className="grid grid-cols-1 gap-8 sm:px-8   sm:max-w-2xl ">
         <section className="text-white flex flex-col gap-4 hover:bg-zinc-800 rounded-xl py-5 px-5">
           <span className="text-sm text-zinc-400">| September 5, 2022</span>
           <span className="text-bold text-lg text-left">
