@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Card } from "../server";
+import { Card, Skill } from "../server";
 const Home = () => {
   return (
     <>
@@ -9,7 +9,7 @@ const Home = () => {
           <section>
             <img
               className="rounded-full w-28 h-28 object-cover border-2 border-solid border-zinc-900"
-              src="./assests/female.jpg"
+              src="./assests/saket05.jpg"
               alt="no name"
             />
           </section>
@@ -130,6 +130,7 @@ const Home = () => {
           </div>
         </div>
       </div>
+      <Skill />
     </>
   );
 };

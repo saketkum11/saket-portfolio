@@ -8,3 +8,5 @@ export { Article } from "./pages/Article";
 export { Footer } from "./Component/Footer";
 export { Card } from "./Component/Card";
 export { ProjectCard } from "./Component/ProjectCard";
+export { Skill } from "./Component/Skill";
+export { Nav } from "./Component/Nav";
