@@ -27,22 +27,22 @@ const Home = () => {
         </div>
         <ul className="flex gap-9 text-white my-10 ">
           <li className="text-2xl">
-            <Link>
+            <Link to="https://github.com/saketkum11">
               <i className="fa-brands fa-github"></i>
             </Link>
           </li>
           <li className="text-2xl">
-            <Link>
-              <i className="fa-brands fa-instagram"></i>
-            </Link>
-          </li>
-          <li className="text-2xl">
-            <Link>
+            <Link to="https://www.linkedin.com/in/saketkumar21/">
               <i className="fa-brands fa-linkedin"></i>
             </Link>
           </li>
           <li className="text-2xl">
-            <Link>
+            <Link to="https://www.instagram.com/k.saket601/">
+              <i className="fa-brands fa-instagram"></i>
+            </Link>
+          </li>
+          <li className="text-2xl">
+            <Link to="https://twitter.com/saketkum11">
               <i className="fa-brands fa-twitter"></i>
             </Link>
           </li>

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const About = () => {
   return (
@@ -37,29 +38,49 @@ const About = () => {
           </div>
           <div className="lg:pl-32">
             <ul className="text-white">
-              <li className="flex gap-x-4">
-                <span>
-                  <i className="fa-brands fa-linkedin"></i>
-                </span>
-                <span>Linkedin</span>
+              <li>
+                <Link
+                  className="flex gap-x-4"
+                  to="https://www.linkedin.com/in/saketkumar21/"
+                >
+                  <span>
+                    <i className="fa-brands fa-linkedin"></i>
+                  </span>
+                  <span>Linkedin</span>
+                </Link>
               </li>
-              <li className="flex gap-x-4">
-                <span>
-                  <i className="fa-brands fa-twitter"></i>
-                </span>
-                <span>Twitter</span>
+              <li>
+                <Link
+                  className="flex gap-x-4"
+                  to="https://twitter.com/saketkum11"
+                >
+                  <span>
+                    <i className="fa-brands fa-twitter"></i>
+                  </span>
+                  <span>Twitter</span>
+                </Link>
               </li>
-              <li className="flex gap-x-4">
-                <span>
-                  <i className="fa-brands fa-instagram"></i>
-                </span>
-                <span>Instagram</span>
+              <li>
+                <Link
+                  className="flex gap-x-4"
+                  to="https://www.instagram.com/k.saket601/"
+                >
+                  <span>
+                    <i className="fa-brands fa-instagram"></i>
+                  </span>
+                  <span>Instagram</span>
+                </Link>
               </li>
-              <li className="flex gap-x-4">
-                <span>
-                  <i className="fa-brands fa-github"></i>
-                </span>
-                <span>Github</span>
+              <li>
+                <Link
+                  className="flex gap-x-4"
+                  to="https://github.com/saketkum11"
+                >
+                  <span>
+                    <i className="fa-brands fa-github"></i>
+                  </span>
+                  <span>Github</span>
+                </Link>
               </li>
               <li className="mt-8">
                 <span>kumarsaket601@gmail.com</span>

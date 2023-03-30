@@ -12,7 +12,7 @@ const Header = () => {
       <nav className="bg-zinc-800 m-auto px-2 py-3 my-5  border border-solid border-zinc-700">
         <div className="flex justify-between items-center px-3 sm:px-10">
           <div className="text-white text-3xl font-bold">
-            <Link to="">Saket Kumar</Link>
+            <Link to="/">Saket Kumar</Link>
           </div>
           <div className="text-3xl flex items-center md:hidden text-white">
             <button className="block" onClick={handleNavigation}>
@@ -25,7 +25,7 @@ const Header = () => {
               <li className="px-4">
                 <Link
                   to="/"
-                  className="text-white text-xs hover:text-yellow-300 focus:text-yellow-300"
+                  className="text-white text-xs hover:text-amber-500 focus:text-amber-500 focus:font-extrabold"
                 >
                   Home
                 </Link>
@@ -33,7 +33,7 @@ const Header = () => {
               <li className="px-4">
                 <Link
                   to="/about"
-                  className="text-white text-xs hover:text-yellow-600 focus:text-yellow-600"
+                  className="text-white text-xs hover:text-amber-500 focus:text-amber-500"
                 >
                   About
                 </Link>
@@ -41,7 +41,7 @@ const Header = () => {
               <li className="px-4">
                 <Link
                   to="/article"
-                  className="text-white text-xs hover:text-yellow-600 focus:text-yellow-600"
+                  className="text-white text-xs hover:text-amber-500 focus:text-amber-500"
                 >
                   Articles
                 </Link>
@@ -49,7 +49,7 @@ const Header = () => {
               <li className="px-4">
                 <Link
                   to="/projects"
-                  className="text-white text-xs hover:text-yellow-600 focus:text-yellow-600"
+                  className="text-white text-xs hover:text-amber-500 focus:text-amber-500"
                 >
                   Projects
                 </Link>
