@@ -5,8 +5,16 @@ const Skill = () => {
   return (
     <div>
       <div className="flex flex-col justify-center items-center my-6">
-        <h1 className="text-white text-3xl m-auto my-3">Skills</h1>
+        <h1 className="text-white text-3xl m-auto my-3">Tech Stack</h1>
         <div className="flex flex-wrap justify-center max-w-5xl gap-8 ">
+          <div
+            className=" text-white w-28  cursor-pointer p-4 rounded-lg"
+            onClick={() => setProgramming((value) => "Css ")}
+          >
+            <span className=" text-white  ">
+              <img src="assests/css-icon.png" alt="React" />
+            </span>
+          </div>
           <div
             className=" text-white w-28  cursor-pointer p-4 rounded-lg"
             onClick={() => setProgramming((value) => "Css ")}
