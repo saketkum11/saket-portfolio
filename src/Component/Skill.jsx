@@ -15,14 +15,6 @@ const Skill = () => {
               <img src="assests/css-icon.png" alt="React" />
             </span>
           </div>
-          <div
-            className=" text-white w-28  cursor-pointer p-4 rounded-lg"
-            onClick={() => setProgramming((value) => "Css ")}
-          >
-            <span className=" text-white  ">
-              <img src="assests/css-icon.png" alt="React" />
-            </span>
-          </div>
 
           <div
             className="text-white   w-28 cursor-pointer p-4 rounded-lg"

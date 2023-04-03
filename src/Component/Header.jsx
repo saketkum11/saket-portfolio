@@ -14,11 +14,12 @@ const Header = () => {
           <div className="text-white text-3xl font-bold">
             <Link to="/">Saket Kumar</Link>
           </div>
-          <div className="text-3xl flex items-center md:hidden text-white">
-            <button className="block" onClick={handleNavigation}>
+          <div className="text-white text-3xl md:hidden">
+            <button onClick={handleNavigation} className="">
               <i class="fa-solid fa-bars"></i>
             </button>
           </div>
+
           {navFlag && <Nav />}
           <div className="hidden md:block">
             <ul className="flex justify-center items-center ">
