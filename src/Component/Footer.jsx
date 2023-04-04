@@ -33,7 +33,7 @@ const Footer = () => {
             </li>
           </ul>
           <div className="text-zinc-600 text-xs">
-            <p>© 2023 Spencer Sharp. All rights reserved.</p>
+            <p>© 2023 Saket Kumar. All rights reserved.</p>
           </div>
         </div>
       </nav>

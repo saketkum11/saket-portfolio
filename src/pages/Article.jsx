@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { ArticleCard } from "../Component/ArticleCard";
 const Article = () => {
   return (
     <>
@@ -8,70 +8,14 @@ const Article = () => {
           <div className="grid grid-cols-1 text-white mt-28">
             <div className="md:max-w-3xl flex flex-col gap-y-5">
               <h1 className="font-bold text-2xl sm:text-5xl">
-                Writing on software design, company building, and the aerospace
-                industry.
+                Writing on javascript concepts, react js , and human behavior.
               </h1>
               <p className="text-zinc-500">
-                All of my long-form thoughts on programming, leadership, product
-                design, and more, collected in chronological order. Crafting
+                All of my long-form thoughts on programming, human behavior.
               </p>
             </div>
-            <div className="lg:border-l-2 lg:border-solid  lg:border-zinc-600 mt-28">
-              <div className="sm:w-full md:max-w-3xl lg:pl-20">
-                <article className="text-white flex flex-col gap-4 hover:bg-zinc-800 rounded-xl py-5 px-5">
-                  <span className="text-sm text-zinc-400">
-                    | September 5, 2022
-                  </span>
-                  <span className="text-bold text-lg text-left">
-                    Crafting a design system for a multiplanetary future
-                  </span>
-                  <p className="text-zinc-500 text-md">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                    Numquam dicta eos magnam, nisi et quam alias provident fugit
-                    omnis in sit accusantium unde vero cum accusamus facilis
-                    quasi ad illo maiores enim tempora veniam iusto animi.
-                    Maxime nulla quia porro mollitia nemo officia ad quam totam
-                    enim, odio voluptatibus architecto!
-                  </p>
-                  <Link className="text-pink-500">Read More !</Link>
-                </article>
-                <article className="text-white flex flex-col gap-4 hover:bg-zinc-800 rounded-xl py-5 px-5">
-                  <span className="text-sm text-zinc-400">
-                    | September 5, 2022
-                  </span>
-                  <span className="text-bold text-lg text-left">
-                    Crafting a design system for a multiplanetary future
-                  </span>
-                  <p className="text-zinc-500 text-md">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                    Numquam dicta eos magnam, nisi et quam alias provident fugit
-                    omnis in sit accusantium unde vero cum accusamus facilis
-                    quasi ad illo maiores enim tempora veniam iusto animi.
-                    Maxime nulla quia porro mollitia nemo officia ad quam totam
-                    enim, odio voluptatibus architecto!
-                  </p>
-                  <Link className="text-pink-500">Read More !</Link>
-                </article>
-                <article className="text-white flex flex-col gap-4 hover:bg-zinc-800 rounded-xl py-5 px-5">
-                  <span className="text-sm text-zinc-400">
-                    | September 5, 2022
-                  </span>
-                  <span className="text-bold text-lg text-left">
-                    Crafting a design system for a multiplanetary future
-                  </span>
-                  <p className="text-zinc-500 text-md">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                    Numquam dicta eos magnam, nisi et quam alias provident fugit
-                    omnis in sit accusantium unde vero cum accusamus facilis
-                    quasi ad illo maiores enim tempora veniam iusto animi.
-                    Maxime nulla quia porro mollitia nemo officia ad quam totam
-                    enim, odio voluptatibus architecto!
-                  </p>
-                  <Link className="text-pink-500">Read More !</Link>
-                </article>
-              </div>
-            </div>
           </div>
+          <ArticleCard />
         </div>
       </div>
     </>

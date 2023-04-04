@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Card, Skill } from "../server";
+import { Skill } from "../server";
+import { ArticleCard } from "../Component/ArticleCard";
 const Home = () => {
   return (
     <>
@@ -18,8 +19,8 @@ const Home = () => {
               Software designer, founder, and amateur astronaut.
             </h1>
             <p className="text-zinc-600">
-              I’m Spencer, a software designer and entrepreneur based in New
-              York City. I’m the founder and CEO of Planetaria, where we develop
+              I’m Saket, a software designer and entrepreneur based in New York
+              City. I’m the founder and CEO of Planetaria, where we develop
               technologies that empower regular people to explore space on their
               own terms.
             </p>
@@ -49,9 +50,9 @@ const Home = () => {
         </ul>
       </div>
 
-      <div className="grid place-content-center lg:grid-cols-2 sm:gap-4  ">
-        <Card />
-        <div className=" sm:pl-10 ">
+      <div className="grid place-content-center lg:grid-cols-2 justify-center items-start sm:gap-4  ">
+        <ArticleCard />
+        <div className="sm:pl-10 mt-28">
           <div className="flex flex-col gap-8 text-white border border-solid border-zinc-700 py-3 rounded-xl px-5 sm:text-sm">
             <span>
               <i className="fa-solid fa-briefcase pr-4"></i> Work
@@ -122,11 +123,6 @@ const Home = () => {
                 </div>
               </li>
             </ul>
-            <div className="w-full">
-              <button className="w-full bg-zinc-800 hover:bg-zinc-700 flex justify-center items-center rounded-md py-1">
-                Download CV <i className="fa-solid fa-arrow-down"></i>
-              </button>
-            </div>
           </div>
         </div>
       </div>
