@@ -15,30 +15,30 @@ const About = () => {
           </div>
           <div className="text-zinc-500 lg:order-first flex flex-col gap-6 lg:row-span-2">
             <span className="md:text-5xl font-extrabold text-white">
-              I’m Spencer Sharp. I live in New York City, where I design the
-              future.
+              I’m Saket Kumar. Curiosity have let me in building new things.
             </span>
             <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab error
-              animi velit aut iste officiis veritatis necessitatibus ratione
-              dolorum dicta.
+              I've loved building new things. While graduating from college, I
+              came across programming that created curiosity. It was fascinating
+              this website works.Somehow asking a colleague to help me to build
+              a portfolio.
             </p>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
-              eaque facilis sit in consequuntur iste, doloremque esse earum
-              cumque qui distinctio dolorem ducimus error sint ab porro
-              similique nobis dolor?
+              As graduating from a non-technical background, it was difficult
+              for me to start learning a programming language. Meanwhile
+              pandemic happened, During the pandemic, I tried to learn
+              programming language. Learning new technology while building new
+              projects that I have listed out in the projects section.
             </p>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi
-              vitae, ullam hic voluptatem, sunt inventore ut labore doloribus,
-              ad recusandae nobis! Accusantium commodi inventore debitis dicta,
-              voluptatibus quis necessitatibus doloremque.
+              I've been very curious to learn how big tech companies use
+              programming languages to build there a product that helps millions
+              of people .
             </p>
           </div>
           <div className="lg:pl-32">
-            <ul className="text-white">
-              <li>
+            <ul className="text-white flex flex-col gap-4">
+              <li className="focus:text-orange-400 hover:text-orange-400">
                 <Link
                   className="flex gap-x-4"
                   to="https://www.linkedin.com/in/saketkumar21/"
@@ -49,7 +49,7 @@ const About = () => {
                   <span>Linkedin</span>
                 </Link>
               </li>
-              <li>
+              <li className="focus:text-orange-400 hover:text-orange-400">
                 <Link
                   className="flex gap-x-4"
                   to="https://twitter.com/saketkum11"
@@ -60,7 +60,7 @@ const About = () => {
                   <span>Twitter</span>
                 </Link>
               </li>
-              <li>
+              <li className="focus:text-orange-400 hover:text-orange-400">
                 <Link
                   className="flex gap-x-4"
                   to="https://www.instagram.com/k.saket601/"
@@ -71,7 +71,7 @@ const About = () => {
                   <span>Instagram</span>
                 </Link>
               </li>
-              <li>
+              <li className="focus:text-orange-400 hover:text-orange-400">
                 <Link
                   className="flex gap-x-4"
                   to="https://github.com/saketkum11"
@@ -82,7 +82,7 @@ const About = () => {
                   <span>Github</span>
                 </Link>
               </li>
-              <li className="mt-8">
+              <li className="focus:text-orange-400 hover:text-orange-400 mt-8 cursor-pointer">
                 <span>kumarsaket601@gmail.com</span>
               </li>
             </ul>

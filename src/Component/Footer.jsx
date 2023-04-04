@@ -4,13 +4,13 @@ import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <div className=" border-solid border-t-2 border-zinc-800">
-      <nav className=" m-auto px-2 py-3 my-5 ">
+      <nav className=" m-auto px-2 py-3 my-4 ">
         <div className="flex flex-col items-center justify-center gap-7">
           <ul className="flex justify-center items-center max-w-sm">
             <li className="px-4">
               <Link
                 to="/about"
-                className="text-white text-xs hover:text-yellow-600 focus:text-yellow-600"
+                className="text-white text-xs hover:text-orange-400 focus:text-orange-400"
               >
                 About
               </Link>
@@ -18,7 +18,7 @@ const Footer = () => {
             <li className="px-4">
               <Link
                 to="/article"
-                className="text-white text-xs hover:text-yellow-600 focus:text-yellow-600"
+                className="text-white text-xs hover:text-orange-400 focus:text-orange-400"
               >
                 Articles
               </Link>
@@ -26,7 +26,7 @@ const Footer = () => {
             <li className="px-4">
               <Link
                 to="/projects"
-                className="text-white text-xs hover:text-yellow-600 focus:text-yellow-600"
+                className="text-white text-xs hover:text-orange-400 focus:text-orange-400"
               >
                 Projects
               </Link>

@@ -26,7 +26,7 @@ const Header = () => {
               <li className="px-4">
                 <Link
                   to="/"
-                  className="text-white text-xs hover:text-amber-500 focus:text-amber-500 focus:font-extrabold"
+                  className="text-white text-xs hover:text-orange-400 focus:text-orange-400 focus:font-extrabold"
                 >
                   Home
                 </Link>
@@ -34,7 +34,7 @@ const Header = () => {
               <li className="px-4">
                 <Link
                   to="/about"
-                  className="text-white text-xs hover:text-amber-500 focus:text-amber-500"
+                  className="text-white text-xs hover:text-orange-400 focus:text-orange-400"
                 >
                   About
                 </Link>
@@ -42,7 +42,7 @@ const Header = () => {
               <li className="px-4">
                 <Link
                   to="/article"
-                  className="text-white text-xs hover:text-amber-500 focus:text-amber-500"
+                  className="text-white text-xs hover:text-orange-400 focus:text-orange-400"
                 >
                   Articles
                 </Link>
@@ -50,7 +50,7 @@ const Header = () => {
               <li className="px-4">
                 <Link
                   to="/projects"
-                  className="text-white text-xs hover:text-amber-500 focus:text-amber-500"
+                  className="text-white text-xs hover:text-orange-400 focus:text-orange-400"
                 >
                   Projects
                 </Link>
