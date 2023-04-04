@@ -16,13 +16,11 @@ const Home = () => {
           </section>
           <section className="flex flex-col gap-7 sm:max-w-2xl">
             <h1 className=" text-5xl sm:font-extrabold text-white text-left">
-              Software designer, founder, and amateur astronaut.
+              Frontend Developer , web designer
             </h1>
             <p className="text-zinc-600">
-              I’m Saket, a software designer and entrepreneur based in New York
-              City. I’m the founder and CEO of Planetaria, where we develop
-              technologies that empower regular people to explore space on their
-              own terms.
+              I’m Saket Kumar a frontend developer. Curiosity have let me in
+              building new things.
             </p>
           </section>
         </div>
@@ -52,77 +50,12 @@ const Home = () => {
 
       <div className="grid place-content-center lg:grid-cols-2 justify-center items-start sm:gap-4  ">
         <ArticleCard />
-        <div className="sm:pl-10 mt-28">
+        <div className="sm:pl-10 mt-12">
           <div className="flex flex-col gap-8 text-white border border-solid border-zinc-700 py-3 rounded-xl px-5 sm:text-sm">
             <span>
               <i className="fa-solid fa-briefcase pr-4"></i> Work
             </span>
-            <ul className="flex flex-col gap-3">
-              <li>
-                <div className="flex items-center gap-5">
-                  <figure className="rounded-full w-8 h-8">
-                    <img src="./assests/Airbnb_logo_PNG2.png" alt="" />
-                  </figure>
-                  <div className="flex flex-col w-full gap-2">
-                    <div className="flex flex-col">
-                      <span>AirBnb</span>
-                    </div>
-                    <div className="flex justify-between text-zinc-500">
-                      <span>Product Design</span>
-                      <span>Date 2019 — Present</span>
-                    </div>
-                  </div>
-                </div>
-              </li>
-              <li>
-                <div className="flex items-center gap-5">
-                  <figure className="rounded-full w-8 h-8">
-                    <img src="./assests/Airbnb_logo_PNG5.png" alt="" />
-                  </figure>
-                  <div className="flex flex-col w-full gap-2">
-                    <div className="flex flex-col">
-                      <span>AirBnb</span>
-                    </div>
-                    <div className="flex justify-between text-zinc-500">
-                      <span>Product Design</span>
-                      <span>Date 2019 — Present</span>
-                    </div>
-                  </div>
-                </div>
-              </li>
-              <li>
-                <div className="flex items-center gap-5">
-                  <figure className="rounded-full w-8 h-8">
-                    <img src="./assests/Airbnb_logo_PNG5.png" alt="" />
-                  </figure>
-                  <div className="flex flex-col w-full gap-2">
-                    <div className="flex flex-col">
-                      <span>AirBnb</span>
-                    </div>
-                    <div className="flex justify-between text-zinc-500">
-                      <span>Product Design</span>
-                      <span>Date 2019 — Present</span>
-                    </div>
-                  </div>
-                </div>
-              </li>
-              <li>
-                <div className="flex items-center gap-5">
-                  <figure className="rounded-full w-8 h-8">
-                    <img src="./assests/Airbnb_logo_PNG5.png" alt="" />
-                  </figure>
-                  <div className="flex flex-col w-full gap-2">
-                    <div className="flex flex-col">
-                      <span>AirBnb</span>
-                    </div>
-                    <div className="flex justify-between text-zinc-500">
-                      <span>Product Design</span>
-                      <span>Date 2019 — Present</span>
-                    </div>
-                  </div>
-                </div>
-              </li>
-            </ul>
+            <span>Fresher</span>
           </div>
         </div>
       </div>
