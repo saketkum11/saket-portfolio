@@ -16,7 +16,7 @@ const Home = () => {
           </section>
           <section className="flex flex-col gap-7 sm:max-w-2xl">
             <h1 className=" text-5xl sm:font-extrabold text-white text-left">
-              Frontend Developer , web designer
+              Front End , React Developer
             </h1>
             <p className="text-zinc-600">
               I’m Saket Kumar a frontend developer. Curiosity have let me in
