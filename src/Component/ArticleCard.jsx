@@ -18,7 +18,7 @@ const ArticleCard = () => {
               siblings. Most often you would use IDs from your data as keys.
             </p>
             <Link
-              className="text-orange-400"
+              className="text-cyan-600"
               to="https://saket.hashnode.dev/importance-of-keys"
             >
               Read More !
@@ -38,7 +38,7 @@ const ArticleCard = () => {
             </p>
             <Link
               to="https://saket.hashnode.dev/understand-deep-and-shallow-copy"
-              className="text-orange-400"
+              className="text-cyan-600"
             >
               Read More !
             </Link>
@@ -57,7 +57,7 @@ const ArticleCard = () => {
             </p>
             <Link
               to="https://saket.hashnode.dev/semantic-html"
-              className="text-orange-400"
+              className="text-cyan-600"
             >
               Read More !
             </Link>
