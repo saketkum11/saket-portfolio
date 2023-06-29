@@ -5,7 +5,7 @@ import { ArticleCard } from "../Component/ArticleCard";
 const Home = () => {
   return (
     <>
-      <div className="sm:grid sm:grid-cols-1 sm:place-content-center p-6">
+      <div className="sm:grid sm:grid-cols-1 sm:place-content-center p-6 text-cyan-700">
         <div className="flex flex-col gap-10 ">
           <section>
             <img
@@ -52,10 +52,12 @@ const Home = () => {
         <ArticleCard />
         <div className="sm:pl-10 mt-12">
           <div className="flex flex-col gap-8 text-white border border-solid border-zinc-700 py-3 rounded-xl px-5 sm:text-sm">
-            <span>
-              <i className="fa-solid fa-briefcase pr-4"></i> Work
-            </span>
-            <span>Fresher</span>
+            <Link
+              className="text-center text-cyan-600 font-bold"
+              to="https://docs.google.com/document/d/1jnMB0AFsAxkRhkEQSAJGJ7QT4X1jqpSw/edit?usp=sharing&ouid=116274432663248095389&rtpof=true&sd=true"
+            >
+              Resume Link
+            </Link>
           </div>
         </div>
       </div>

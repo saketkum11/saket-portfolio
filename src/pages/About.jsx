@@ -38,7 +38,7 @@ const About = () => {
           </div>
           <div className="lg:pl-32">
             <ul className="text-white flex flex-col gap-4">
-              <li className="focus:text-orange-400 hover:text-orange-400">
+              <li className="focus:text-cyan-600 hover:text-cyan-600">
                 <Link
                   className="flex gap-x-4"
                   to="https://www.linkedin.com/in/saketkumar21/"
@@ -49,7 +49,7 @@ const About = () => {
                   <span>Linkedin</span>
                 </Link>
               </li>
-              <li className="focus:text-orange-400 hover:text-orange-400">
+              <li className="focus:text-cyan-600 hover:text-cyan-600">
                 <Link
                   className="flex gap-x-4"
                   to="https://twitter.com/saketkum11"
@@ -60,7 +60,7 @@ const About = () => {
                   <span>Twitter</span>
                 </Link>
               </li>
-              <li className="focus:text-orange-400 hover:text-orange-400">
+              <li className="focus:text-cyan-600 hover:text-cyan-600">
                 <Link
                   className="flex gap-x-4"
                   to="https://www.instagram.com/k.saket601/"
@@ -71,7 +71,7 @@ const About = () => {
                   <span>Instagram</span>
                 </Link>
               </li>
-              <li className="focus:text-orange-400 hover:text-orange-400">
+              <li className="focus:text-cyan-600 hover:text-cyan-600">
                 <Link
                   className="flex gap-x-4"
                   to="https://github.com/saketkum11"
@@ -82,7 +82,7 @@ const About = () => {
                   <span>Github</span>
                 </Link>
               </li>
-              <li className="focus:text-orange-400 hover:text-orange-400 mt-8 cursor-pointer">
+              <li className="focus:text-cyan-600 hover:text-cyan-600 mt-8 cursor-pointer">
                 <span>kumarsaket601@gmail.com</span>
               </li>
             </ul>

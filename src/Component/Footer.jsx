@@ -10,7 +10,7 @@ const Footer = () => {
             <li className="px-4">
               <Link
                 to="/about"
-                className="text-white text-xs hover:text-orange-400 focus:text-orange-400"
+                className="text-white text-xs hover:text-cyan-600 focus:text-cyan-600"
               >
                 About
               </Link>
@@ -18,7 +18,7 @@ const Footer = () => {
             <li className="px-4">
               <Link
                 to="/article"
-                className="text-white text-xs hover:text-orange-400 focus:text-orange-400"
+                className="text-white text-xs hover:text-cyan-600 focus:text-cyan-600"
               >
                 Articles
               </Link>
@@ -26,7 +26,7 @@ const Footer = () => {
             <li className="px-4">
               <Link
                 to="/projects"
-                className="text-white text-xs hover:text-orange-400 focus:text-orange-400"
+                className="text-white text-xs hover:text-cyan-600 focus:text-cyan-600"
               >
                 Projects
               </Link>
