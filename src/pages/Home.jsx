@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Skill } from "../server";
-import { ArticleCard } from "../Component/ArticleCard";
+import { ProjectCard, Skill } from "../server";
 const Home = () => {
   return (
     <>
@@ -45,20 +44,31 @@ const Home = () => {
               <i className="fa-brands fa-twitter"></i>
             </Link>
           </li>
+          <li className="text-2xl">
+            <div className="flex flex-col gap-8 text-white border border-solid border-zinc-700 py-3 rounded-xl px-5 sm:text-sm">
+              <Link
+                className="text-center text-cyan-600 font-bold"
+                to="https://drive.google.com/file/d/1SntLlLnejE3FNF050F-_YZdNTKxGk_jP/view?usp=sharing"
+              >
+                Resume Link
+              </Link>
+            </div>
+          </li>
         </ul>
       </div>
-
-      <div className="grid place-content-center lg:grid-cols-2 justify-center items-start sm:gap-4  ">
-        <ArticleCard />
-        <div className="sm:pl-10 mt-12">
-          <div className="flex flex-col gap-8 text-white border border-solid border-zinc-700 py-3 rounded-xl px-5 sm:text-sm">
-            <Link
-              className="text-center text-cyan-600 font-bold"
-              to="https://drive.google.com/file/d/1sxrhe4WWOXQVXpEG0eM1tYFxmo-hM_3s/view?usp=sharing"
-            >
-              Resume Link
-            </Link>
-          </div>
+      <div className="mt-24 p-4 sm:grid sm:grid-cols-1 m-auto">
+        <div className="flex flex-col  gap-5 max-w-2xl m-auto">
+          <span className="text-white text-2xl md:text-md font-bold">
+            Things I’ve made trying to put my small dent in the universe.
+          </span>
+          <span className=" text-zinc-500">
+            I’ve worked on tons of little projects over the years but these are
+            the ones that I’m most proud of. If you see something that piques
+            your interest, check out the code.
+          </span>
+        </div>
+        <div>
+          <ProjectCard />
         </div>
       </div>
       <Skill />

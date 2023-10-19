@@ -31,14 +31,6 @@ const Nav = () => {
                 Articles
               </Link>
             </li>
-            <li className="px-4">
-              <Link
-                to="/projects"
-                className="text-white text-xs hover:text-yellow-600 focus:text-yellow-600"
-              >
-                Projects
-              </Link>
-            </li>
           </ul>
         </div>
       </div>
