@@ -47,14 +47,6 @@ const Header = () => {
                   Articles
                 </Link>
               </li>
-              <li className="px-4">
-                <Link
-                  to="/projects"
-                  className="text-white text-xs hover:text-cyan-600 focus:text-cyan-600"
-                >
-                  Projects
-                </Link>
-              </li>
             </ul>
           </div>
         </div>
