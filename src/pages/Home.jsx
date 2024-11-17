@@ -48,7 +48,7 @@ const Home = () => {
             <div className="flex flex-col gap-8 text-white border border-solid border-zinc-700 py-3 rounded-xl px-5 sm:text-sm">
               <Link
                 className="text-center text-cyan-600 font-bold"
-                to="https://drive.google.com/file/d/1U9L-Suxzk8dSLPEOg5DeNBZ0g1lEM0Ti/view?usp=sharing"
+                to="https://drive.google.com/file/d/1mebjt6aLTQ3V0peHQfqCKji4i9lR7PvK/view?usp=sharing"
               >
                 Resume Link
               </Link>
